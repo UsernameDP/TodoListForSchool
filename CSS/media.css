@@ -1,0 +1,28 @@
+@media  (max-width: 1000px){
+    .display_main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 700px){
+    .display_main{
+        grid-template-columns: 1fr 1fr;
+    }
+    .class_select_header{
+        font-size: 20px;
+        height: 30px;
+    }
+    .class_sub{
+        left: 5%;
+        right: 5%;
+        min-width: 350px;
+    }
+    .section{
+        min-width: 350px;
+    }
+
+}
+@media (max-width:500px){
+    .display_main{
+        grid-template-columns: 1fr;
+    }
+}
