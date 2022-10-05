@@ -1,0 +1,121 @@
+#missing_stuff_main{
+    z-index: 200;
+}
+
+#missing_stuff_sub{
+    position: absolute;
+    top: 18%;
+    bottom: 18%;
+    left: 10%;
+    right: 10%;
+    border: solid 5px rgb(249, 101, 9);
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-image: linear-gradient(to bottom right, rgb(52, 50, 50), rgb(41, 40, 40));
+    opacity: 0.8;
+    z-index : 100;
+    overflow: auto;
+    min-width: 300px;
+}
+#missing_stuff_sub::-webkit-scrollbar{
+    display: none;
+}
+#missing_stuff_sub p{
+    background-color: rgb(231, 95, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    user-select: none;
+}
+
+#missing_todo, #missing_test{
+    position: relative;
+    flex: 1;
+    margin: 0px 10px;
+    border: solid 5px rgb(249, 101, 9);
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-image: linear-gradient(to bottom right, rgb(52, 50, 50), rgb(41, 40, 40));
+    opacity: 0.8;
+    z-index : 100;
+    overflow: auto;
+    min-width: 300px;
+    overflow: auto;
+}
+#missing_todo::-webkit-scrollbar, #missing_test::-webkit-scrollbar{
+    display: none;
+}
+#missing_todo div, #missing_test div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(216, 145, 52);
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    border-radius: 5px;
+    margin: 8px 0px;
+    padding: 0px 10px;
+    min-height: 30px;
+    max-height: 40px;
+    user-select: none;
+    transition: scale 0.5s, background-color 0.5s, box-shadow 0.5s, font-size 0.2s, font-weight 0.2s;
+}
+#missing_test figure{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 5px;
+}
+
+
+#missing_stuff_sub button{
+    width: 100%;
+    height: 40px;
+    max-width: 100px;
+    min-width: 70px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Righteous', cursive;
+    cursor: pointer;
+    z-index: 200;
+}
+#missing_close{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: darkorange;
+    transition: scale 0.5s, background-color 1s;
+}
+#missing_close:hover{
+    scale: 1.1;
+    background-color:rgb(221, 40, 40);
+}
+
+#missing_test figure button{
+    margin: 0px 5px;
+}
+.test_remove_button{
+    background-color: green;
+}
+
+
+.remove_test{
+    scale: 1.1;
+    background-color: rgb(41, 144, 51);
+}
+.emp_todo{
+    scale: 1.1;
+    background-color: rgb(173, 48, 48)
+}
