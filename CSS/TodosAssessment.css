@@ -11,14 +11,14 @@
     font-family: 'PT Sans Narrow', sans-serif;
     animation: section_anim 5s cubic-bezier(0.5,-0.1, 0.47, 1.08) infinite alternate;
 }
-/* @keyframes section_anim{
+@keyframes section_anim{
     0%{
         scale: 1.02;
     }
     100%{
         scale: 0.98;
     }
-} */
+}
 
 .class_header{
     background-color: rgba(227, 77, 13, 0.893);
