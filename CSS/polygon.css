@@ -1,0 +1,15 @@
+@keyframes container{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.polygon{
+    position: fixed;
+    right: -125px;
+    bottom: -300px;
+    height: 50%;
+
+    filter: brightness(0.8);
+    z-index: -5;
+    animation:container 75s linear infinite alternate;
+}
